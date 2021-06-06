@@ -4,7 +4,8 @@
   "description": "Exemplo de Deploy no Heroku Web",
   "main": "app.js",
   "scripts": {
-    "test": "test.js"
+    "test": "test.js",
+    "start": "node app.js"
   },
   "keywords": [
     "deploy",
