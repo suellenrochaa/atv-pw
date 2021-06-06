@@ -16,11 +16,11 @@ app.get('/', function(req,res){
 });
 
 app.get('/math', function(req,res){
-    res.render('math/math.ejs');
+    res.render('math/math');
 });
 
 app.get('/math_random', function(req,res){
-    res.render('math_random/math_random.ejs');
+    res.render('math_random/math_random');
 });
 
 app.listen(process.env.PORT || 5000, function(){
